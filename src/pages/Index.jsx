@@ -57,7 +57,7 @@ const Index = () => {
         `}
       </style>
       <h1 className="text-4xl font-bold mb-8 gradient-text">Carl Pei</h1>
-      <p className="text-xl mb-12 gradient-text">Entrepreneur. Innovator. Visionary.</p>
+      <p className="text-xl mb-12 gradient-text">Making tech fun again</p>
       <div className={`text-2xl font-bold text-center max-w-2xl quote-transition gradient-text ${fadeIn ? 'opacity-100' : 'opacity-0'}`}>
         "{quotes[currentQuote]}"
       </div>
